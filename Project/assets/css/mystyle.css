@@ -1,0 +1,116 @@
+/* Colors Starts*/
+:root{
+    --bg_color1:rgb(30, 143, 255);
+    --bg_color2:rgb(16, 114, 211);
+    --bg_color3:rgba(255, 189, 7);
+    --bg_color4:#cfcccc;
+    --txt_color1:#333;
+
+    --text_color2:#eee;
+    --text_color3:rgb(255, 255, 255);
+    
+
+}
+.bg_color1{
+    background-color: var(--bg_color1) !important;
+}
+.bg_color2{
+    background-color: var(--bg_color2) !important;
+}
+.bg_color3{
+    background-color: var(--bg_color3) !important;
+}
+.bg_color4{
+    background-color: var(--bg_color4)!important;
+}
+.txt_color1{
+    color:var(--txt_color1) !important;
+}
+.txt_color2{
+    color:var(--text_color2);
+}
+/* Colors Ends*/
+
+
+/* ======================================================================== */
+
+
+/* Header CSS Starts */
+.header img.logo_with_name{
+    max-width: 25%;
+}
+/* Header CSS Ends */
+/* =============================================================== */
+
+/* Navbar CSS Starts */
+.navbar .nav-item a{
+    color: var(--text_color2) !important;;
+}
+
+.navbar .nav-item:hover{
+    background-color: var(--bg_color2) !important;
+    color:white !important;
+}
+
+/* Navbar CSS Ends */
+
+/* ======================================================== */
+
+
+/* Desktop Version and Mobile Version CSS Starts */
+  .mobile_version{
+    display: none;
+   }
+   .desktop_version{
+       display:block;   
+   }
+@media screen and (max-width:768px){
+   
+    .mobile_version{
+     display: block;
+    }
+    .desktop_version{
+        display:none;   
+    }
+
+}
+/* Carousel CSS Ends */
+
+
+/* Footer CSS Starts */
+    footer .social_ions{
+        color:white !important;
+        font-size:30px;
+        text-decoration: none;
+        padding-right:15px;
+    }
+
+    footer .social_ions:hover{
+        color:var(--bg_color3) !important;
+    }
+/* horizontal line */
+
+@media screen and (max-width:768px){
+    footer .hr_mobile{
+        display: block;
+        height: 2px;
+        width:100%;
+        background-color: #888 !important;
+        /* color:red; */
+    
+    }
+}
+
+/* Footer CSS Ends */
+
+/* Arrow Up */
+#top {
+    position: fixed;
+    bottom: 35px;
+    right: 20px;
+    font-size:36px;
+    color:var(--bg_color3)!important;
+}
+#top:hover{
+    cursor:pointer;
+}

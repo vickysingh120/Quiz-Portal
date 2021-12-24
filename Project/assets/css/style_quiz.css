@@ -1,0 +1,54 @@
+:root {
+    --color1: #f4f4f6;
+    --color2: #707070;
+}
+
+.ques_card {
+    border-radius: 10px;
+    background-color: var(--color1) !important;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.ques-heading {
+    color: var(--color2) !important;
+}
+
+.ques-seperator {
+    height: 20px;
+    background-color: white !important;
+}
+
+.options .opt {
+    position: relative;
+    height: 45px;
+    line-height: 45px;
+    /* width: 250px; */
+    border-radius: 5px;
+    border: 1px solid var(--color2);
+
+}
+
+.options .opt:hover {
+    cursor: pointer;
+    background-color: var(--color2);
+    color: white;
+}
+
+.options .opt.correct {
+    background-color: rgba(80, 191, 15, .3);
+    border: 3px solid #409c0b;
+    color: #318003;
+    font-weight: bolder;
+}
+
+.options .opt.wrong {
+    background-color: rgba(199, 37, 4, .3);
+    border: 3px solid #ad2509;
+    color: #ad2509;
+    font-weight: bolder;
+}
+
+.options img.symbol {
+    position: absolute;
+    right: 0px;
+}
